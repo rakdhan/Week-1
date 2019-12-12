@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <h1>LET'S CONFIRM YOUR PIZZA!</h1>
+    <meta charset="utf-8">
+    <title>Pizza Confirmation</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link a
+  </head>
+  <body>
+    <section id="overlay">
+      <img src="https://scontent-sin6-2.xx.fbcdn.net/v/t1.0-0/p370x247/56947104_1514828728650991_2857104496901750784_n.jpg?_nc_cat=104&_nc_ohc=O5wzHJ9aLa0AQmGZ4qow_U3xDMwQjbg_U2wj8l5RwkTFqHRHTb4AS-dsw&_nc_ht=scontent-sin6-2.xx&oh=fcb14dda7a6649bf5864427dffd1faf2&oe=5E806970" alt="Go Pizza Logo" id="logo">
+      <hr>
+
+      <h3>Cheeselover pizza coming right up!</h3>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQbanr60E0at4c8t-rbKH0-iGD5D3BttTTsvGFyzsl1rBXz5Gtj" alt="Go Pizza Logo" id="logo">
+      <p>A classic Italian open pie made of thin bread dough spread with a mixture of spices, love, and cheese!</p>
+      <hr>
+
+      <form action="submission.html" method="POST">
+				<h3>Modify Your PIZZA Now!</h3>
+        
+        <hr> 
+
+        <section class="patties">
+          <label for="amount">How many Cheeselovers would you like?</label>
+          <br>
+          <input type="number" name="amount" id="amount">
+        </section>
+       
+        <hr>
+       
+        <section class="crust-type">
+            <label for="crust">Choose your pizza crust!</label>
+            <br>
+            <select name="crust" id="crust">
+              <option value="Classic">Classic</option>
+              <option value="Pandan">Pandan</option>
+              <option value="Black">Black</option>
+            </select>
+          </section>
+       
+        <hr>
+        
+        <section class="toppings">
+          <span>Pick your toppings!</span>
+          <br>
+          <br>
+          <input type="checkbox" name="topping" id="mushroom" value="mushroom">
+          <label for="mushroom">Mushroom</label>
+          <input type="checkbox" name="topping" id="jelly" value="jelly">
+          <label for="jelly">Jelly</label>
+          <input type="checkbox" name="topping" id="onion" value="onion">
+          <label for="onion">Onion</label>
+          <input type="checkbox" name="topping" id="tomato" value="tomato">
+          <label for="tomato">Tomato</label>
+            <br>
+          <input type="checkbox" name="topping" id="nutella" value="nutella">
+          <label for="nutella">Nutella</label>
+          <input type="checkbox" name="topping" id="bambon" value="bambon">
+          <label for="bambon">Bika Ambon</label>
+          <input type="checkbox" name="topping" id="curry" value="curry">
+          <label for="curry">Curry</label>
+        </section>
+       
+        <hr>
+       
+        <section class="cooked">
+            <label for="doneness">What is your Cheesy level in your pizza?</label>
+            <br>
+            <br>
+            <span>Just Cheese</span>
+            <input type="range" name="doneness" id="doneness" value="50" min="1" max="100">
+            <span>Cheesy!</span>
+          </section>
+
+          <hr>
+
+          <section class="extra-info">
+            <label for="extra">More details in your order? Enter here:</label>
+            <br>
+            <textarea id="extra" name="extra" rows="3" cols="40"></textarea>
+          </section>
+
+          <hr>
+
+        <!---<section class="cheesy">
+          <span>Would you like to add cheese?</span>
+          <br>
+          <input type="radio" name="cheese" id="yes" value="yes">
+          <label for="yes">Yes</label>
+          <input type="radio" name="cheese" id="no" value="yes">
+          <label for="no">No</label>
+        </section>
+        <hr>----
+
+        
+        ----<section class="sauce-selection">
+          <label for="sauce">What type of sauce would you like?</label>
+          <input list="sauces" id="sauce" name="sauce">
+          <datalist id="sauces">
+            <option value="ketchup"></option>
+            <option value="mayo"></option>
+            <option value="mustard"></option>
+          </datalist>
+        </section>
+        <hr>------
+        
+        -----  <section class="protein">
+          <label for="patty">What type of protein would you like?</label>
+    			<input type="text" name="patty" id="patty">
+        </section>------>
+
+
+
+        <section class="submission">
+          <input type="submit" value="Submit!">
+        </section>
+      </form>
+    </section>
+  </body>
+</html>
