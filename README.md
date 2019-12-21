@@ -1,2 +1,2 @@
-# Week1-html&CSS-Codecademy
+# Week1
 tugas html week 1
